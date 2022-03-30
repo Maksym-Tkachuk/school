@@ -1,0 +1,521 @@
+@media screen and (max-width: 1430px) {
+  .about-Teaching__curruculum-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-Teaching__curruculum-bottom div:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .about-Teaching__curruculum-topInformation {
+    text-align: center;
+  }
+  .about-Teaching__curruculum_common {
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .about-Teaching__curruculum-topIMG img:first-child {
+    margin-bottom: 36px;
+  }
+  .about-Teaching__curruculum-top
+    .about-Teaching__curruculum-topIMG
+    img:last-child {
+    margin-bottom: 0px;
+  }
+  .menu ul {
+    display: none;
+  }
+  .menu-nav{
+    visibility: visible !important;
+  }
+  .about-Teaching__curruculum-top .about-Teaching__curruculum-topInformation {
+    max-width: 600px;
+  }
+
+  .all-content section {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .about-Teaching__main-Lessens {
+    margin-bottom: 51px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .about-Teaching__years-mainLessens .about-Teaching__lessens div {
+    padding: 0;
+    border: none;
+  }
+  .about-Teaching__years-mainLessens .about-Teaching__lessens {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .study-price__table img {
+    display: none;
+  }
+  .all-content section {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagram-information {
+    max-width: 100%;
+  }
+  .colleges-For-Admition__statistik {
+    flex-direction: column;
+    align-items: center;
+  }
+  .colleges-For-Admition__diagram-information h4 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-Teaching .about-Teaching__secondCourse-lessons {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+  }
+  .about-Teaching .about-Teaching__process-monitoring {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .life-student__photo {
+    display: none;
+  }
+  .life-student__photo-slider {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header__inner .header__bottom {
+    background: no-repeat url(./../img/header/BacgroundIllustr.png) bottom
+      center;
+    height: 768px;
+    background-size: 500px;
+    padding: 0;
+  }
+  .header__inner {
+    padding: 0px 10px;
+  }
+  .header__bottom .heder__botom-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heder__botom-inner .header__articl {
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+  }
+  .heder__botom-inner .header__location-shcool {
+    margin-bottom: 15px;
+  }
+  .study-price__information .price-include {
+    max-width: 100%;
+  }
+  .study-price .study-price__information {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .study-price__information .price-dont-include {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .footer__certificate div {
+    margin-bottom: 22px;
+    margin-top: 20px;
+  }
+  .footer__contakts .email {
+    padding-left: 20px;
+    display: inline-block;
+  }
+  .footer .footer__contakts .phone::before {
+    left: 74px;
+  }
+  .footer__contakts {
+    margin-top: 15px;
+  }
+  body .footer {
+    padding: 55px 15px 53px 15px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about-Teaching .about-Teaching__secondCourse-lessons {
+    display: block;
+  }
+  .about-Teaching .about-Teaching__secondCourse-lessons div {
+    margin-right: 15px;
+  }
+  .about-Teaching .about-Teaching__secondCourse-lessons.about-Teaching__slider,
+  .about-Teaching .about-Teaching__secondCourse-lessons.sliderSecond {
+    display: block;
+  }
+  .about-Teaching .about-Teaching__secondCourse-lessons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .first-stap .first-stap__img-student img {
+    display: block;
+    margin-bottom: 32px;
+  }
+  .first-stap__inner {
+    margin-bottom: 0px !important;
+  }
+  .first-stap {
+    background: #f5f8ff !important;
+  }
+  .first-stap__inner div:nth-child(2) {
+    text-align: center;
+  }
+  .first-stap .first-stap__inner {
+    max-width: 100%;
+  }
+  .first-stap .first-stap__download-files div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .few-information__inner .slick-prev,
+  .few-information__inner .slick-next {
+    bottom: 170px;
+    top: auto !important;
+  }
+  .few-information__inner .slick-prev {
+    left: 20% !important;
+  }
+  .few-information__inner .slick-next {
+    right: 20% !important;
+  }
+  .student-statistik__marks .student-statistik__marks-inner {
+    grid-template-columns: 1fr;
+  }
+  .student-statistik__marks_second .student-statistik__first-part {
+    justify-content: space-around !important;
+  }
+  .student-statistik__lessons .student-statistik__lessons-table {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+  .student-statistik__lessons .student-statistik__lessons-table div {
+    padding: 0;
+    border: none;
+  }
+  .student-statistik__marks_second
+    .student-statistik__information
+    .student-statistik__information-inner {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .about-shcool__infornayion .about-shcool__infornayion-block {
+    flex-direction: column;
+  }
+  .shcool__text-common {
+    order: 1;
+    text-align: center;
+  }
+  .about-shcool__infornayion-block img {
+    order: 2;
+  }
+  .about-shcool__img2 {
+    margin: 0 !important;
+  }
+  .about-shcool__infornayion-block .shcool__text-common p:first-of-type {
+    margin: 15px 0;
+  }
+  .about-shcool__infornayion-block {
+    flex-direction: column !important;
+  }
+  .first-stap .first-stap__download-files {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .first-stap .first-stap__download-files div p {
+    max-width: 100%;
+  }
+  .enroll-course {
+    flex-direction: column;
+    align-items: center;
+  }
+  .enroll-course img {
+    order: 2;
+    margin-top: 20px;
+  }
+  .enroll-course__information {
+    text-align: center;
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about-Teaching__curruculum-topIMG img {
+    width: 230px;
+  }
+  .life-student__photo-slider .slick-list {
+    max-width: 550px !important;
+  }
+  .student-messages .message {
+    width: 100%;
+  }
+  .academic-potential {
+    flex-direction: column;
+    text-align: center;
+  }
+  .academic-potential__title {
+    text-align: center !important;
+  }
+  .table-information .table-information__about-universety {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about-Teaching__years-mainLessens .about-Teaching__lessens {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .student-statistik__lessons .student-statistik__lessons-table {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .student-statistik__marks_second
+    .student-statistik__Thematic-achievements_inner {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .student-statistik__marks_third
+    .student-statistik__Thematic-achievements_inner {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-gap: 20px !important;
+  }
+  .colleges-For-Admition__diagrama img {
+    width: 400px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(1) {
+    width: 120px;
+    height: 120px;
+    right: -70px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(2) {
+    width: 100px;
+    height: 100px;
+    left: -13px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(3) {
+    width: 80px;
+    height: 80px;
+    left: -50px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(4) {
+    width: 70px;
+    height: 70px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(5) {
+    width: 60px;
+    height: 60px;
+    left: 130px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(1)
+    p:first-child {
+    font-size: 28px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(2)
+    p:first-child {
+    font-size: 24px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(3)
+    p:first-child {
+    font-size: 22px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(4)
+    p:first-child {
+    font-size: 20px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(5)
+    p:first-child {
+    font-size: 18px;
+  }
+  .table-information {
+    flex-direction: column !important;
+  }
+  .table-information .table-information__about-universety {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .table-information .table-information__count-students {
+    max-width: 100%;
+  }
+  .life-student__photo-slider .slick-list {
+    max-width: 400px !important;
+  }
+  .study-price__table-inner .study-price__table-inner div {
+    padding: 10px 0px 10px 15px;
+  }
+  .price-include ul {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about-shcool__infornayion-block .shcool__text-common {
+    width: 100%;
+  }
+  .student-statistik .student-statistik__Thematic-achievements_inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-Teaching__years-mainLessens .about-Teaching__lessens {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .colleges-For-Admition__diagrama img {
+    width: 350px;
+  }
+  .colleges-For-Admition .colleges-For-Admition__placeOfUniversiti {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+  }
+  .shcool__title_common span {
+    font-size: 35px !important;
+  }
+  .about-Teaching__curruculum_common {
+    margin-right: 0 !important;
+  }
+  .about-Teaching__curruculum-topIMG img {
+    width: 185px;
+  }
+  .about-Teaching .about-Teaching__curruculum-topIMG img:first-child {
+    margin-right: 7px;
+  }
+  .about-Teaching .about-Teaching__curruculum-bottom div {
+    font-size: 15px;
+  }
+  .study-price .study-price__table-inner div {
+    padding: 12px 0px 12px 15px;
+    font-size: 13px;
+  }
+  .about-Teaching .about-Teaching__curruculum-topInformation h2 {
+    font-size: 21px;
+    line-height: normal;
+  }
+  .about-Teaching .about-Teaching__process-information:not(:first-child) {
+    width: 100%;
+    padding: 32px 30px 34px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    padding: 32px 0px 0px !important;
+  }
+  .few-information .few-information__block span {
+    font-size: 16px;
+  }
+  .few-information .few-information__block {
+    margin: 25px 0;
+  }
+  .about-shcool {
+    padding: 0px 10px !important;
+  }
+  .about-shcool .shcool__text-common p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .about-shcool__infornayion-block img {
+    width: 350px;
+  }
+  .about-Teaching__curruculum-topIMG img {
+    width: 162px;
+  }
+  .student-statistik .student-statistik__information-inner {
+    width: 251px;
+  }
+  .student-statistik .student-statistik__marks-information {
+    justify-content: normal;
+  }
+  .colleges-For-Admition__diagrama img {
+    width: 300px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(1) {
+    width: 100px;
+    height: 100px;
+    right: -50px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(3) {
+    left: -40px;
+    top: 90px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(4) {
+    left: 20px;
+  }
+  .colleges-For-Admition__statistik
+    .colleges-For-Admition__diagrama
+    div:nth-of-type(5) {
+    left: 88px;
+  }
+  .colleges-For-Admition .colleges-For-Admition__placeOfUniversiti {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .life-student__photo-slider .slick-list {
+    max-width: 300px !important;
+  }
+  .study-price .study-price__table-inner div {
+    font-size: 10px;
+  }
+  .first-stap .first-stap__img-student img {
+    width: 350px;
+  }
+  .enroll-course img {
+    width: 350px;
+  }
+  .student-statistik__lessons .student-statistik__lessons-table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .student-statistik__marks_third
+    .student-statistik__Thematic-achievements_inner {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .all-content .first-stap,
+  .all-content .study-price {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .about-Teaching__secondCourse-lessonsBlock h3 {
+    font-size: 16px !important;
+  }
+}

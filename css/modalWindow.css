@@ -1,0 +1,203 @@
+/*windov*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачное затемнение */
+}
+#myModalMessage .modal-content{
+    padding: 60px 90px 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#myModalMessage .modal-content div{
+    background:  url('./../img/modalWindow/background.png') ;
+}
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px rgba(14, 190, 217, 0.2);
+  border-radius: 15px;
+  width: 95%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  max-width: 700px;
+}
+.modal-content div {
+  width: 100%;
+  background: no-repeat url("./../img/modalWindow/background.png") 170%;
+}
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.close {
+  float: right;
+}
+.close:hover {
+  cursor: pointer;
+}
+/*windov*/
+.select {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.select * {
+  font-family: Myriad-Pro-Regular;
+}
+.select__head,
+.data__day input,
+.student__information-common input {
+  width: 100%;
+  border: 1px solid #0ebed9 !important;
+  border-radius: 5px;
+  padding: 14px 15px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #444444;
+  opacity: 0.7;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 22px;
+}
+
+.select__head::after {
+  width: 10px;
+  height: 6px;
+  background: #fff url("./../img/Arrow/Arrow.svg") no-repeat center / cover;
+  position: absolute;
+  right: 20px;
+  bottom: 50%;
+  transform: translateY(50%);
+  content: "";
+  display: block;
+  transition: 0.2s ease-in;
+}
+
+.select__head.open::after {
+  transform: translateY(50%) rotate(180deg);
+}
+
+.select__list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 5px;
+  max-height: 205px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #424348;
+  scrollbar-color: dark;
+  scrollbar-width: thin;
+  overscroll-behavior: contain;
+}
+
+.select__list::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f8f9fa;
+  padding: 5px;
+}
+
+.select__list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+
+.select__list .select__item {
+  position: relative;
+  border-top: 1px solid rgba(224, 229, 231, 0.5);
+  padding: 10px 15px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.select__list .select__item:hover {
+  background-color: rgba(224, 229, 231, 0.5);
+}
+
+.modal .data {
+  display: grid;
+  grid-template-columns: 74px 1fr 1fr;
+  grid-column-gap: 30px;
+  width: 100%;
+}
+
+.data div h3,
+.student__information-common h3,
+.modal-content h3 {
+  color: #0ebed9;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.stydent-repsesentative .stydent-repsesentative__artickle {
+  color: #444;
+}
+.stydent-progress {
+  margin: 22px 0 32px;
+}
+.stydent-progress a {
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffa945;
+}
+.stydent-progress a:hover {
+  border-bottom: 1px solid #ffa945;
+}
+.stydent-progress img {
+  margin-right: 10px;
+  width: 15px;
+}
+.stydent-repsesentative__submit .submit {
+  padding: 24px 54px;
+  width: auto;
+  border: none !important;
+  background: linear-gradient(94.75deg, #ffa945 0%, #ff9345 99.41%);
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  display: block;
+}
